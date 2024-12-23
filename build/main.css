@@ -1,7 +1,95 @@
+.main-dishes .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.main-dishes .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .main-dishes .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .main-dishes .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.main-dishes .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .main-dishes .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .main-dishes .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.main-dishes .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-dishes .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.main-dishes .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.main-dishes .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .main-dishes .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.main-dishes .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .main-dishes .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.main-dishes .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", serif;
 }
 
 main {
@@ -14,23 +102,70 @@ main {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 95%;
+    padding: 10px 0 0 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+.container .special-dishes .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
 }
 .container .special-dishes .foods-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .container .special-dishes .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .container .special-dishes .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }
 .container .special-dishes .foods-list .food-line {
-  width: 90%;
-  height: 25vh;
-  padding: 5px;
-  margin: 15px 0;
+  max-width: 100%;
+  width: 620px;
   border-radius: 5px;
+  padding: 4px 0 4px 10px;
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin: 20px 0;
   background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .container .special-dishes .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .container .special-dishes .foods-list .food-line {
+    margin: 10px 0;
+  }
 }
 .container .special-dishes .foods-list .food-line .div {
   display: flex;
@@ -40,11 +175,27 @@ main {
   display: flex;
   flex-direction: column;
 }
-.container .special-dishes .foods-list .food-line .div .div-block b {
-  margin: 5px;
+.container .special-dishes .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
 }
 .container .special-dishes .foods-list .food-line .div .div-block p {
-  margin: 5px;
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .container .special-dishes .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.container .special-dishes .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .container .special-dishes .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
 }
 .container .special-dishes .foods-list .food-line .image-foods {
   width: 150px;
