@@ -46,9 +46,6 @@ main {
     } 
 }
 
-nav {
-    position: fixed;
-}
 
 //começo navbar dos links
 .scroll-container {
@@ -57,7 +54,7 @@ nav {
     white-space: nowrap;
     padding: 10px;
     background-color: #f4f4f4;
-    scrollbar-width: auto;
+    scrollbar-width: none;
 
 }
 

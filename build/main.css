@@ -800,17 +800,13 @@ main {
   }
 }
 
-nav {
-  position: fixed;
-}
-
 .scroll-container {
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
   padding: 10px;
   background-color: #f4f4f4;
-  scrollbar-width: auto;
+  scrollbar-width: none;
 }
 
 /* Remover a barra de rolagem no Chrome, Safari e Edge */
