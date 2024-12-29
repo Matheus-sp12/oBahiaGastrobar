@@ -1,0 +1,90 @@
+@use 'config';
+
+.ginsTradicionais {
+        .tittle {
+            font-family: config.$title;
+            text-align: left;
+            font-size: 30px
+        }
+
+        .foods-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            list-style: none;
+            margin: 20px 0;
+
+            @media screen and (max-width: 767px) {
+                grid-template-columns: 1fr;
+                width: 100%;
+            }
+
+            @media screen and (max-width: 1023px) {
+                grid-template-columns: 1fr;
+                width: 100%;
+            }
+
+
+            .food-line {
+                max-width: 100%;
+                width: 620px;
+                border-radius: 5px;
+                padding: 4px 0 4px 10px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: left;
+                margin: 20px 0;
+                background-color: white; 
+                
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                    border-radius: 5px;
+                    padding: 5px;
+                    margin: 10px 0;
+                }
+
+                @media screen and (max-width: 1023px) {
+                    margin: 10px 0;
+                }
+                
+                        
+                .div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .div-block {
+                        display: flex;
+                        flex-direction: column;
+
+                        .tittle-foods {
+                            font-family: config.$titleFoods;
+                        }
+
+                        p{
+                            margin: 10px 0;
+                            font-family: sans-serif;
+                            color: rgb(116, 115, 115);
+                            @media screen and (max-width: 767px) {
+                                font-size: 14px;
+                            }
+                        }
+
+                        b {
+                            font-family: sans-serif;
+                            margin: 5px 0;
+                            @media screen and (max-width: 767px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .image-foods {    
+                    width: 150px;
+                    border-radius: 2px;
+
+                    
+                }
+            }
+        }
+    }

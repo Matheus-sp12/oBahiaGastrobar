@@ -1,3 +1,85 @@
+.special-dishes .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.special-dishes .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .special-dishes .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .special-dishes .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.special-dishes .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .special-dishes .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .special-dishes .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.special-dishes .foods-list .food-line .div {
+  display: flex;
+  align-items: center;
+}
+.special-dishes .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.special-dishes .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.special-dishes .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .special-dishes .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.special-dishes .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .special-dishes .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.special-dishes .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
 .main-dishes .tittle {
   font-family: "Bebas Neue", serif;
   text-align: left;
@@ -82,6 +164,594 @@
   border-radius: 2px;
 }
 
+.main-portions .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.main-portions .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .main-portions .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .main-portions .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.main-portions .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .main-portions .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .main-portions .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.main-portions .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-portions .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.main-portions .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.main-portions .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .main-portions .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.main-portions .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .main-portions .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.main-portions .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
+.combos .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.combos .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .combos .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .combos .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.combos .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .combos .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .combos .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.combos .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.combos .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.combos .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.combos .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .combos .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.combos .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .combos .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.combos .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
+.caipirinhaTradicional .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.caipirinhaTradicional .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaTradicional .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .caipirinhaTradicional .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.caipirinhaTradicional .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaTradicional .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .caipirinhaTradicional .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.caipirinhaTradicional .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caipirinhaTradicional .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.caipirinhaTradicional .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.caipirinhaTradicional .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaTradicional .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.caipirinhaTradicional .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaTradicional .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.caipirinhaTradicional .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
+.caipirinhaEspeciais .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.caipirinhaEspeciais .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaEspeciais .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .caipirinhaEspeciais .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.caipirinhaEspeciais .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaEspeciais .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .caipirinhaEspeciais .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.caipirinhaEspeciais .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caipirinhaEspeciais .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.caipirinhaEspeciais .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.caipirinhaEspeciais .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaEspeciais .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.caipirinhaEspeciais .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .caipirinhaEspeciais .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.caipirinhaEspeciais .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
+.ginsTradicionais .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.ginsTradicionais .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .ginsTradicionais .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .ginsTradicionais .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.ginsTradicionais .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .ginsTradicionais .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .ginsTradicionais .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.ginsTradicionais .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ginsTradicionais .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.ginsTradicionais .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.ginsTradicionais .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .ginsTradicionais .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.ginsTradicionais .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .ginsTradicionais .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.ginsTradicionais .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
+.cervejas .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.cervejas .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .cervejas .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cervejas .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.cervejas .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .cervejas .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cervejas .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.cervejas .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cervejas .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.cervejas .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.cervejas .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .cervejas .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.cervejas .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .cervejas .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.cervejas .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
+.bebidasNAlcool .tittle {
+  font-family: "Bebas Neue", serif;
+  text-align: left;
+  font-size: 30px;
+}
+.bebidasNAlcool .foods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .bebidasNAlcool .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .bebidasNAlcool .foods-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+.bebidasNAlcool .foods-list .food-line {
+  max-width: 100%;
+  width: 620px;
+  border-radius: 5px;
+  padding: 4px 0 4px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+}
+@media screen and (max-width: 767px) {
+  .bebidasNAlcool .foods-list .food-line {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .bebidasNAlcool .foods-list .food-line {
+    margin: 10px 0;
+  }
+}
+.bebidasNAlcool .foods-list .food-line .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bebidasNAlcool .foods-list .food-line .div .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.bebidasNAlcool .foods-list .food-line .div .div-block .tittle-foods {
+  font-family: "Quicksand", serif;
+}
+.bebidasNAlcool .foods-list .food-line .div .div-block p {
+  margin: 10px 0;
+  font-family: sans-serif;
+  color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 767px) {
+  .bebidasNAlcool .foods-list .food-line .div .div-block p {
+    font-size: 14px;
+  }
+}
+.bebidasNAlcool .foods-list .food-line .div .div-block b {
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+@media screen and (max-width: 767px) {
+  .bebidasNAlcool .foods-list .food-line .div .div-block b {
+    font-size: 14px;
+  }
+}
+.bebidasNAlcool .foods-list .food-line .image-foods {
+  width: 150px;
+  border-radius: 2px;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -120,86 +790,36 @@ main {
     width: 100%;
   }
 }
-.container .special-dishes .tittle {
-  font-family: "Bebas Neue", serif;
-  text-align: left;
-  font-size: 30px;
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #f4f4f4;
+  scrollbar-width: auto;
 }
-.container .special-dishes .foods-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  list-style: none;
-  margin: 20px 0;
+
+/* Remover a barra de rolagem no Chrome, Safari e Edge */
+.scroll-container::-webkit-scrollbar {
+  display: none;
 }
-@media screen and (max-width: 767px) {
-  .container .special-dishes .foods-list {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .container .special-dishes .foods-list {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-}
-.container .special-dishes .foods-list .food-line {
-  max-width: 100%;
-  width: 620px;
+
+/* Estilo dos links */
+.scroll-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  background-color: #e0e0e0;
   border-radius: 5px;
-  padding: 4px 0 4px 10px;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin: 20px 0;
-  background-color: white;
+  transition: background-color 0.3s;
 }
-@media screen and (max-width: 767px) {
-  .container .special-dishes .foods-list .food-line {
-    width: 100%;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 10px 0;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .container .special-dishes .foods-list .food-line {
-    margin: 10px 0;
-  }
-}
-.container .special-dishes .foods-list .food-line .div {
-  display: flex;
-  align-items: center;
-}
-.container .special-dishes .foods-list .food-line .div .div-block {
-  display: flex;
-  flex-direction: column;
-}
-.container .special-dishes .foods-list .food-line .div .div-block .tittle-foods {
-  font-family: "Quicksand", serif;
-}
-.container .special-dishes .foods-list .food-line .div .div-block p {
-  margin: 10px 0;
-  font-family: sans-serif;
-  color: rgb(116, 115, 115);
-}
-@media screen and (max-width: 767px) {
-  .container .special-dishes .foods-list .food-line .div .div-block p {
-    font-size: 14px;
-  }
-}
-.container .special-dishes .foods-list .food-line .div .div-block b {
-  font-family: sans-serif;
-  margin: 5px 0;
-}
-@media screen and (max-width: 767px) {
-  .container .special-dishes .foods-list .food-line .div .div-block b {
-    font-size: 14px;
-  }
-}
-.container .special-dishes .foods-list .food-line .image-foods {
-  width: 150px;
-  border-radius: 2px;
+
+.scroll-container a:hover {
+  background-color: #8d4925;
 }
 
 /*# sourceMappingURL=main.css.map */
