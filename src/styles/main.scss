@@ -46,6 +46,10 @@ main {
     } 
 }
 
+nav {
+    position: fixed;
+}
+
 //começo navbar dos links
 .scroll-container {
     display: flex;
@@ -54,6 +58,7 @@ main {
     padding: 10px;
     background-color: #f4f4f4;
     scrollbar-width: auto;
+
 }
 
 /* Remover a barra de rolagem no Chrome, Safari e Edge */

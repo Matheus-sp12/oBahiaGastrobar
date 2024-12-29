@@ -2,6 +2,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .special-dishes .foods-list {
   display: grid;
@@ -84,6 +85,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .main-dishes .foods-list {
   display: grid;
@@ -168,6 +170,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .main-portions .foods-list {
   display: grid;
@@ -252,6 +255,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .combos .foods-list {
   display: grid;
@@ -336,6 +340,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .caipirinhaTradicional .foods-list {
   display: grid;
@@ -420,6 +425,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .caipirinhaEspeciais .foods-list {
   display: grid;
@@ -504,6 +510,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .ginsTradicionais .foods-list {
   display: grid;
@@ -588,6 +595,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .cervejas .foods-list {
   display: grid;
@@ -672,6 +680,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
+  padding-left: 10px;
 }
 .bebidasNAlcool .foods-list {
   display: grid;
@@ -789,6 +798,10 @@ main {
   .container {
     width: 100%;
   }
+}
+
+nav {
+  position: fixed;
 }
 
 .scroll-container {
