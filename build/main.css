@@ -771,6 +771,71 @@ body {
   font-family: "Roboto Condensed", serif;
 }
 
+header {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+}
+@media screen and (max-width: 767px) {
+  header {
+    width: 100%;
+  }
+}
+header .containerHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8d4925;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+}
+header .containerHeader h3 {
+  font-family: "Outfit", serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+header .containerHeader .logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+header .containerHeader .link-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  header .containerHeader .link-list {
+    flex-direction: column;
+  }
+}
+header .containerHeader .link-list .list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 10px auto;
+}
+header .containerHeader .link-list .list .list-item a {
+  font-size: 30px;
+  color: #000000;
+}
+header .containerHeader .link-list .list .list-item a :hover {
+  color: #f0b798;
+}
+header .avaliar {
+  color: #e2b52f;
+  text-decoration: none;
+  text-align: left;
+}
+header .avaliar :hover {
+  color: #d8b859;
+}
+
 main {
   text-align: center;
   background-color: rgb(238, 237, 237);
