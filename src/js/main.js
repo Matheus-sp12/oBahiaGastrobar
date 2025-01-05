@@ -31,3 +31,14 @@ scrollContainer.addEventListener("mousemove", (e) => {
     const walk = (x - startX) * 2; // Velocidade do scroll
     scrollContainer.scrollLeft = scrollLeft - walk;
 });
+
+
+// Função para mostrar ou ocultar a mensagem
+function mostrarInformacoes() {
+    const mensagem = document.getElementById('infoMessage');
+    if (mensagem.style.display === 'none' || mensagem.style.display === '') {
+        mensagem.style.display = 'block';
+    } else {
+        mensagem.style.display = 'none';
+    }
+}

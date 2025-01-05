@@ -860,6 +860,19 @@
     width: 90%;
   }
 }
+.info-message {
+  display: none;
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+  max-width: 300px;
+  position: absolute;
+}
+
 footer {
   background-color: #8d4925;
 }
@@ -891,6 +904,8 @@ footer section ul a :hover {
 footer p {
   text-align: center;
   padding: 15px 0;
+  color: black;
+  list-style: n;
 }
 @media screen and (max-width: 767px) {
   footer section {
@@ -1053,6 +1068,28 @@ main {
 
 .scroll-container a:hover {
   background-color: #8d4925;
+}
+
+.user-modified:hover {
+  display: flex;
+}
+
+.user-modified {
+  font-size: 14px;
+  display: none;
+}
+
+.info-message {
+  display: none;
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+  max-width: 300px;
+  position: absolute;
 }
 
 /*# sourceMappingURL=main.css.map */

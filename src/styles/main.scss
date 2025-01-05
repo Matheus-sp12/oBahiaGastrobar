@@ -63,7 +63,7 @@ header {
             align-items: center;
 
             @media screen and (max-width: 767px) {
-               flex-direction: column;
+                flex-direction: column;
             }
 
             .list {
@@ -84,17 +84,19 @@ header {
                         }
                     }
 
-
                 }
+
             }
         }
     }
+
 
     .avaliar {
         color: #e2b52f;
         text-decoration: none;
         text-align: left;
     }
+
     .avaliar:hover {
         color: #d8b859;
         border-bottom: 1px solid #d8b859;
@@ -160,4 +162,26 @@ main {
 
 .scroll-container a:hover {
     background-color: #8d4925;
+}
+
+.user-modified:hover {
+    display: flex;
+}
+
+.user-modified{ 
+    font-size: 14px;
+    display: none;
+}
+
+.info-message {
+    display: none;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    max-width: 300px;
+    position: absolute;
 }
