@@ -1,0 +1,122 @@
+@use 'config';
+
+.info {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    I {
+        margin-right: 10px;
+    }
+
+    h5 {
+        font-family: config.$titlePrincipal;
+        font-weight: 800;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 25px;
+        padding: 10px 0;
+        line-height: 2.5rem;
+    }
+
+    li {
+        list-style: none;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info {
+        margin: 20px auto;
+        grid-template-columns: 1fr;
+
+        p {
+            font-size: 25px;
+            padding: 10px 10px 30px 10px;
+            line-height: 2.5rem;
+            text-align: left;
+        }
+
+        li {
+            font-size: 25px;
+        }
+    }
+
+
+}
+
+
+.pag {
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    I {
+        margin-right: 10px;
+        color: green;
+        font-weight: bold;
+    }
+
+    h5 {
+        font-family: config.$titlePrincipal;
+        font-weight: 800;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: rgb(65, 64, 64);
+        padding: 10px 0;
+    }
+
+    li {
+        list-style: none;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pag {
+        margin: 50px auto;
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+
+        h5 {
+            font-family: config.$titlePrincipal;
+            font-weight: 800;
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: rgb(65, 64, 64);
+            padding: 10px 0;
+        }
+
+        li {
+            list-style: none;
+            font-size: 20px;
+            padding: 10px 0;
+        }
+
+        .maps {
+            padding-top: 50px;
+
+            p {
+                font-size: 14px;
+            }
+
+            .maps-width {
+                width: 90%;
+            }
+        }
+    }
+}

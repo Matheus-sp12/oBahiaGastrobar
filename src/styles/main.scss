@@ -8,6 +8,8 @@
 @use 'ginsTradicionais';
 @use 'cervejas';
 @use 'bebidasNAlcool';
+@use 'principal';
+@use 'footer';
 
 * {
     margin: 0;
@@ -17,6 +19,7 @@
 
 body {
     font-family: config.$principalFont;
+    background-color: rgb(238, 237, 237);
 }
 
 
@@ -91,18 +94,16 @@ header {
         color: #e2b52f;
         text-decoration: none;
         text-align: left;
-
-        :hover {
-            color: #d8b859;
-        }
-
+    }
+    .avaliar:hover {
+        color: #d8b859;
+        border-bottom: 1px solid #d8b859;
     }
 }
 
 
 main {
     text-align: center;
-    background-color: rgb(238, 237, 237);
     width: 100%;
     max-width: 100%;
     display: flex;
