@@ -26,7 +26,7 @@ body {
 header {
     text-align: center;
     width: 70%;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
     padding: 0;
 
     @media screen and (max-width: 767px) {
@@ -140,13 +140,14 @@ main {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
-    padding: 10px;
+    padding: 20px 0;
     background-color: #f4f4f4;
     z-index: 1000; /* Garantir que esteja acima de outros elementos */
     scrollbar-width: none; /* Remover barra de rolagem no Firefox */
     -ms-overflow-style: none; /* Remover barra de rolagem no IE/Edge */
 
 }
+
 
 /* Remover a barra de rolagem no Chrome, Safari e Edge */
 .scroll-container::-webkit-scrollbar {
