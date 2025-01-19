@@ -1092,4 +1092,10 @@ main {
   position: absolute;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
