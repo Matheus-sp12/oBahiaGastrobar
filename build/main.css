@@ -1040,12 +1040,18 @@ main {
 }
 
 .scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
   padding: 10px;
   background-color: #f4f4f4;
-  scrollbar-width: none;
+  z-index: 1000; /* Garantir que esteja acima de outros elementos */
+  scrollbar-width: none; /* Remover barra de rolagem no Firefox */
+  -ms-overflow-style: none; /* Remover barra de rolagem no IE/Edge */
 }
 
 /* Remover a barra de rolagem no Chrome, Safari e Edge */
@@ -1064,6 +1070,7 @@ main {
   background-color: #e0e0e0;
   border-radius: 5px;
   transition: background-color 0.3s;
+  white-space: nowrap; /* Evitar quebra de linha */
 }
 
 .scroll-container a:hover {
@@ -1090,12 +1097,6 @@ main {
   color: #333;
   max-width: 300px;
   position: absolute;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  background-color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */
