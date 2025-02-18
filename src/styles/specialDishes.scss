@@ -1,11 +1,13 @@
 @use 'config';
 
 .special-dishes {
+    background-color: aqua;
     .tittle {
         font-family: config.$title;
         text-align: left;
         font-size: 30px;
         padding-left: 10px;
+        background-color: black;
     }
 
     .foods-list {

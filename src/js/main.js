@@ -41,4 +41,4 @@ function mostrarInformacoes() {
     } else {
         mensagem.style.display = 'none';
     }
-}
+}w
