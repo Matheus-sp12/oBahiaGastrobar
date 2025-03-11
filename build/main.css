@@ -2,7 +2,7 @@
   font-family: "Bebas Neue", serif;
   text-align: left;
   font-size: 30px;
-  padding-left: 10px;
+  margin-top: 40px;
 }
 .special-dishes .foods-list {
   display: grid;
@@ -949,7 +949,6 @@ header {
   text-align: center;
   width: 70%;
   margin: 10px auto 0 auto;
-  padding: 0;
 }
 @media screen and (max-width: 767px) {
   header {
