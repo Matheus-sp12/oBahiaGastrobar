@@ -1,6 +1,8 @@
 @use 'config';
 
 .special-dishes {
+
+    
     .tittle {
         font-family: config.$title;
         text-align: left;
@@ -89,4 +91,11 @@
             }
         }
     }
+}
+
+.tittle-span {
+    font-size: 15px;
+    margin: 0 auto;
+    font-weight: 400;
+    padding: 0;
 }

@@ -81,6 +81,13 @@
   border-radius: 2px;
 }
 
+.tittle-span {
+  font-size: 15px;
+  margin: 0 auto;
+  font-weight: 400;
+  padding: 0;
+}
+
 .main-dishes .tittle {
   font-family: "Bebas Neue", serif;
   text-align: left;
