@@ -89,6 +89,9 @@
   padding: 0;
 }
 
+.main-dishes {
+  display: none;
+}
 .main-dishes .tittle {
   font-family: "Bebas Neue", serif;
   text-align: left;
